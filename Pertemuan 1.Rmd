@@ -1,0 +1,17 @@
+##Library
+```{r}
+library(aplpack)
+library(graphics)
+```
+##Stem-and-Leaf
+```{r}
+stem(iris$Petal.Length,scale=1) #Base
+stem.leaf(iris$Petal.Length, 0.1) #Applack
+```
+##Boxplot
+```{r}
+boxplot(weight~Diet, data = ChickWeight,
+        ylab = "Berat Ayam (cm)",
+        boxwex = 0.5)
+```
+
